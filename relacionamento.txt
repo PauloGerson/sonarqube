@@ -1,0 +1,29 @@
+----- RELACIONAMENTOS PARA FAZER -----
+
+* Uma avaliador pode avaliar varios ou nenhum projeto
+* Um evento pode conceder vários ou 1 premiação
+* Uma premiação pode pertecer a uma ou mais pessoas.
+
+
+
+------ RELACIONAMENTOS FEITOS ----- 
+
+* O projeto pode pertecer a apenas um autor e o autor pode ter vário projetos 
+
+
+
+------ CONSULTAS PARA FAZER -------
+
+* Listar autores e projetos
+
+* Listar Projetos avaliados (visualizar dados projetos e dados da avaliação); obs: que contenha o id do avaliador
+
+* Listar projetos enviado não avaliado (visualizar dados dos projetos,
+  inclusive autores); obs: foi enviado mas não tem o id do avaliador.
+
+* Listar Projetos vencedores por ordem de notas maiores (visualizar dados
+  projetos);
+
+------ CONSULTAS FEITAS ------
+
+* listar projetos e autores(remove)
